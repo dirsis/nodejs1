@@ -10,7 +10,6 @@ server.listen(3000,"localhost",()=> {
     
 });
 console.log("prueba2");
-
 setTimeout(() => {
     server.close();
 }, 5000);
